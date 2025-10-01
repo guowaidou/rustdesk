@@ -21,6 +21,7 @@ name = "service"
 path = "src/service.rs"
 
 [features]
+default = ["no-tray", "hide-cm"]
 inline = []
 cli = []
 use_samplerate = ["samplerate"]
